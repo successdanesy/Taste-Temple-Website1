@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taste Temple</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <div class="nav__header">
+                <div class="nav__logo">
+                    <a href="#">
+                        <img src="assets/TASTE_TEMPLE_WHITE-removebg-preview.png" alt="logo" class="nav__logo-white" />
+                    </a>
+                </div>
+                <div class="nav__menu__btn" id="menu-btn">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+            <ul class="nav__links" id="nav-links">
+                <li><a href="#starters">STARTERS</a></li>
+                <li><a href="#main courses">MAIN COURSES</a></li>
+                <li><a href="#sides">SIDES</a></li>
+                <li><a href="#desserts">DESSERTS</a></li>
+                <li><a href="#drinks">DRINKS</a></li>
+            </ul>
+        </nav>
+        <div class="section__container header__container" id="home">
+            <div class="header__image">
+            </div>
+            <div class="header__content">
+                <h1>TASTE<br /><span>TEMPLE</span></h1>
+                <h2>A Sanctuary Of Flavors<br> dine with us as we take you through Nigeria's Rich Native Side</h2>
+            </div>
+        </div>
+    </header>
+
+    <!-- Starters -->
+    <section class="section__container order__container" id="starters">
+        <h3>STARTERS</h3>
+        <h3>Rating 3.0/5.0 | Delivery Available</h3>
+        <h3>All Pricess Are VAT Inclusive</h3>
+        <div class="order__grid">
+            <div class="order__card">
+                <img src="assets/Catfish_peppersoup.JPG" alt="order" id="pepper-soup-image" />
+                <h4>Pepper Soup</h4>
+                <select name="pepper-soup" id="pepper-soup" data-image-id="pepper-soup-image">
+                    <option value="fish" data-image="assets/Catfish_peppersoup.JPG">Fish</option>
+                    <option value="goat" data-image="assets/Goat_meat_peppersoup.JPG">Goat</option>
+                    <option value="chicken" data-image="assets/Chicken_peppersoup.JPG">Chicken</option>
+                </select>
+                <h3>₦5,500</h3>
+            </div>
+
+            <div class="order__card">
+                <img src="assets/beef_suya.JPG" alt="order" id="suya-image" />
+                <h4>Suya</h4>
+                <select name="suya" id="suya" data-image-id="suya-image">
+                    <option value="beef" data-image="assets/beef_suya.JPG">Beef</option>
+                    <option value="chicken" data-image="assets/chicken_suya.JPG">Chicken</option>
+                </select>
+                <h3>₦5,500</h3>
+            </div>
+
+            <div class="order__card">
+            <img src="assets/Akara.JPG" alt="order" id="akara-image" />
+            <h4>Custard & Akara</h4>
+            <h3>₦3,500</h3>
+        </div>
+
+        <div class="order__card">
+            <img src="assets/Moi_Moi.JPG" alt="order" id="moi-moi-image" />
+            <h4>Pap & Moi Moi</h4>
+            <h3>₦3,500</h3>
+        </div>
+
+        <div class="order__card">
+            <img src="assets/abacha.JPG" alt="order" id="abacha-image" />
+            <h4>Abacha</h4>
+            <h3>₦4,000</h3>
+        </div>
+
+        </div>
+    </section>
+
+    <!-- Main Courses -->
+    <section class="section__container order__container" id="main courses">
+    <h3>Main Courses</h3>
+    <h3>Rating 4.3/5.0 | Delivery Available</h3>
+    <div class="order__grid">
+        <div class="order__card">
+            <img src="assets/white-rice.JPG" alt="order" id="rice-image" />
+              <h4>Rice</h4>
+              <select name="rice" id="rice" data-image-id="rice-image">
+                  <option value="White Rice" data-image="assets/white-rice.JPG">White Rice</option>
+                  <option value="Jollof Rice" data-image="assets/jollof2-rice.JPG">Jollof Rice</option>
+                  <option value="Curry Rice" data-image="assets/fried-rice.JPG">Curry Rice</option>
+                  <option value="Ofada Rice" data-image="assets/ofada-rice.JPG">Ofada Rice</option>
+              </select>
+              <h3>₦6,500</h3>
+          </div>
+
+          <div class="order__card">
+              <img src="assets/Spaghetti.JPG" alt="order" id="spaghetti-image" />
+              <h4>Spaghetti Stirfry</h4>
+              <h3>₦5,000</h3>
+          </div>
+
+          <div class="order__card">
+            <img src="assets/egusi.JPG" alt="order" id="soups-image" />
+            <h4>Swallow</h4>
+            <select name="soups" id="soups" data-image-id="soups-image">
+                <option value="Pounded Yam with Egusi soup" data-image="assets/egusi.JPG">Pounded Yam & Egusi soup</option>
+                <option value="Starch with Banga" data-image="assets/starch.JPG">Starch with Banga</option>
+                <option value="Fisherman soup" data-image="assets/fisher2.JPG">Fisherman soup</option>
+                <option value="Amala" data-image="assets/amala2.JPG">Amala & Ewedu</option>
+                <option value="afang" data-image="assets/afang2.JPG">Afang & pounded Yam</option>
+                <option value="ogbono" data-image="assets/ogbono.JPG">Ogbono & Garri</option>
+            </select>
+            <h3>₦6,500</h3>
+        </div>
+
+        <div class="order__card">
+            <img src="assets/boiled-yam.JPG" alt="order" id="boiled-image" />
+            <h4>Boiled Yam</h4>
+            <select name="boil" id="boil" data-image-id="boiled-image">
+                <option value="Boiled Yam" data-image="assets/boiled-yam.JPG">Boiled Yam</option>
+                <option value="Boiled Irish Potato" data-image="assets/boiled_potato.JPG">Boiled Irish Potato</option>
+                <option value="Boiled Sweet Potato" data-image="assets/sweet_potato.JPG">Boiled Sweet Potato</option>
+            </select>
+            <h3>₦3,500</h3>
+        </div>
+
+        <div class="order__card">
+          <img src="assets/Isi-ewu.JPG" alt="order" id="isi-ewu-image" />
+          <h4>Isi Ewu</h4>
+          <h3>₦6,500</h3>
+      </div>
+
+      <div class="order__card">
+        <img src="assets/Nkwobi.JPG" alt="order" id="Nkwobi-image" />
+        <h4>Nkwobi</h4>
+        <h3>₦6,500</h3>
+    </div>
+      </div>
+  </section>
+
+  <!-- Sides -->
+  <section class="section__container order__container" id="sides">
+    <h3>SIDES</h3>
+    <h3>Rating 3.0/5.0 | Delivery Available</h3>
+    <div class="order__grid">
+        <div class="order__card">
+            <img src="assets/Fried_plantain.JPG" alt="order" id="dodo-image" />
+            <h4>Plantain</h4>
+            <select name="dodo" id="dodo" data-image-id="dodo-image">
+            <option value="Fried Plantain" data-image="assets/Fried_plantain.JPG">Fried Plantain</option>
+            <option value="Boiled Plantain" data-image="assets/Boiled_plantain.JPG">Boiled Plantain</option>
+            <option value="Roasted Plantain" data-image="assets/roasted_plantain.JPG">Roasted Plantain(boli)</option>
+            </select>
+            <h3>₦2,500</h3>
+        </div>
+
+        <div class="order__card">
+          <img src="assets/fried_yam.JPG" alt="order" id="fries-image" />
+          <h4>Fries</h4>
+          <select name="fries" id="fries" data-image-id="fries-image">
+            <option value="Yam" data-image="assets/fried_yam.JPG">Yam Fries</option>
+            <option value="Irish Potato Fries" data-image="assets/fried_irish_potato.JPG">Irish Potato Fries</option>
+            <option value="Sweet Potato Fries" data-image="assets/fried_sweet_potato.JPG">Sweet Potato Fries</option>
+            </select>
+            <h3>₦2,500</h3>
+      </div>
+
+      <div class="order__card">
+        <img src="assets/fish_sauce.JPG" alt="order" id="sauce-image" />
+        <h4>Sauce</h4>
+        <select name="sauce" id="sauce" data-image-id="sauce-image">
+          <option value="Fish Sauce" data-image="assets/fish_sauce.JPG">Fish Sauce</option>
+          <option value="Egg Sauce" data-image="assets/egg_sauce.JPG">Egg Sauce</option>
+          <option value="Pepper Sauce" data-image="assets/pepper_sauce.JPG">Pepper Sauce</option>
+          <option value="Vegetable Sauce" data-image="assets/vegetable sauce.JPG">Vegetable Sauce</option>
+          </select>
+          <h3>₦4,500</h3>
+    </div>
+
+      <div class="order__card">
+        <img src="assets/Salad.JPG" alt="order" id="salad-image" />
+        <h4>Salad</h4>
+        <h3>₦1,500</h3>
+    </div>
+
+    <div class="order__card">
+      <img src="assets/moi_moi2.JPG" alt="order" id="moi-moi-image" />
+      <h4>Moi Moi</h4>
+      <h3>₦3,000</h3>
+    </div>
+
+    <div class="order__card">
+        <img src="assets/boiled_egg.JPG" alt="order" id="Boiled-egg-image" />
+        <h4>Boiled Egg's</h4>
+        <h3>₦1,500</h3>
+      </div>
+
+      <div class="order__card">
+        <img src="assets/porridge_beans.JPG" alt="order" id="Beans-image" />
+        <h4>Porridge Beans</h4>
+        <h3>₦3,500</h3>
+      </div>
+
+      <div class="order__card">
+        <img src="assets/white_beans.JPG" alt="order" id="white-Beans-image" />
+        <h4>White Beans</h4>
+        <h3>₦1,500</h3>
+      </div>
+
+    </div>
+</section>
+
+
+<!-- Desserts -->
+<section class="section__container order__container" id="desserts">
+    <h3>DESSERTS</h3>
+    <h3>Rating 3.0/5.0 | Delivery Available</h3>
+    <div class="order__grid">
+        <div class="order__card">
+            <img src="assets/puff puff.jpg" alt="order" id="puff-image" />
+            <h4>Puff Puff</h4>
+            <h3>₦2,000</h3>
+        </div>
+
+        <div class="order__card">
+        <img src="assets/chinchin.jpg" alt="order" id="chin-image" />
+        <h4>Chin Chin</h4>
+        <h3>₦2,500</h3>
+    </div>
+
+    <div class="order__card">
+        <img src="assets/Meat_pie.JPG" alt="order" id="pie-image" />
+        <h4>Meat Pie</h4>
+        <select name="pie" id="pie" data-image-id="pie-image">
+            <option value="Meat pie" data-image="assets/Meat_pie.JPG">Meat Pie</option>
+            <option value="Chicken Pie" data-image="assets/chicken_pie.JPG">Chicken Pie</option>
+            </select>
+            <h3>₦3,500</h3>
+    </div>
+
+    <div class="order__card">
+        <img src="assets/plain_donuts.JPG" alt="order" id="donut-image" />
+        <h4>Donuts</h4>
+        <select name="donut" id="donut" data-image-id="donut-image">
+            <option value="donut" data-image="assets/plain_donuts.JPG">Plain Donuts</option>
+            <option value="caramel" data-image="assets/caramel_glazed.JPG">Caramel glazed Donuts</option>
+            <option value="chocolate" data-image="assets/chocolate_glazed.JPG">Chocolate glazed Donuts</option>
+            <option value="nutella" data-image="assets/nutella_filled.JPG">Nutella Filled Donuts</option>
+            </select>
+            <h3>₦3,500</h3>
+    </div>
+
+    <div class="order__card">
+        <img src="assets/Egg rolls.JPG" alt="order" id="roll-image" />
+        <h4>Egg Rolls</h4>
+        <select name="roll" id="roll" data-image-id="roll-image">
+            <option value="egg roll" data-image="assets/Egg rolls.JPG">Egg Rolls</option>
+            <option value="scotch eggs" data-image="assets/scotch_eggs.JPG">Scotch Eggs</option>
+            <option value="buns" data-image="assets/buns.JPG">Buns</option>
+            </select>
+            <h3>₦3,500</h3>
+    </div>
+
+    </div>
+</section>
+
+
+<!-- Drinks -->
+<section class="section__container order__container" id="drinks">
+    <h3>DRINKS</h3>
+    <h3>Rating 3.0/5.0 | Delivery Available</h3>
+    <div class="order__grid">
+        <div class="order__card">
+            <img src="assets/Zobo.JPG" alt="order" id="zobo-image" />
+            <h4>Zobo Drink</h4>
+            <h3>₦1,500</h3>
+        </div>
+
+        <div class="order__card">
+        <img src="assets/kunu.JPG" alt="order" id="kunu-image" />
+        <h4>Kunu Drink</h4>
+        <h3>₦1,500</h3>
+    </div>
+
+    <div class="order__card">
+        <img src="assets/chapman.JPG" alt="order" id="chapman-image" />
+        <h4>Chapman (Cocktail)</h4>
+        <h3>₦2,500</h3>
+    </div>
+
+    <div class="order__card">
+        <img src="assets/palmwine.JPG" alt="order" id="palmwine-image" />
+        <h4>Palmwine</h4>
+        <h3>₦3,000</h3>
+    </div>
+
+
+    <div class="order__card">
+        <img src="assets/pineapple.JPG" alt="order" id="fj-image" />
+        <h4>Fruit Juice</h4>
+        <select name="fj" id="fj" data-image-id="fj-image">
+            <option value="pineapple" data-image="assets/pineapple.JPG">Pineapple</option>
+            <option value="watermelon" data-image="assets/watermelon.JPG">Watermelon</option>
+            <option value="chocolate" data-image="assets/orange.JPG">Orange</option>
+            <option value="nutella" data-image="assets/apple.JPG">Apple</option>
+            <option value="nutella" data-image="assets/ginger.JPG">Ginger</option>
+            </select>
+            <h3>₦3,000</h3>
+    </div>
+
+    <div class="order__card">
+        <img src="assets/malt.JPG" alt="order" id="malt-image" />
+        <h4>Malt</h4>
+        <h3>₦1,000</h3>
+    </div>
+
+    <div class="order__card">
+        <img src="assets/coke.JPG" alt="order" id="SD-image" />
+        <h4>Soft Drinks</h4>
+        <select name="SD" id="SD" data-image-id="SD-image">
+            <option value="Coke" data-image="assets/coke.JPG">Coke</option>
+            <option value="pepsi" data-image="assets/pepsi.JPG">Pepsi</option>
+            <option value="fanta" data-image="assets/fanta.JPG">Fanta</option>
+            <option value="sprite" data-image="assets/sprite.JPG">sprite</option>
+            </select>
+            <h3>₦1,000</h3>
+    </div>
+
+    <div class="order__card">
+        <img src="assets/trophy.JPG" alt="order" id="beer-image" />
+        <h4>Beer</h4>
+        <select name="beer" id="beer" data-image-id="beer-image">
+            <option value="beer" data-image="assets/trophy.JPG">Trophy</option>
+            <option value="orijin" data-image="assets/origin.JPG">Orijin</option>
+            <option value="star" data-image="assets/star.JPG">Star</option>
+            <option value="heineken" data-image="assets/heineken.JPG">Heineken</option>
+            </select>
+            <h3>₦2,000</h3>
+    </div>
+
+    <div class="order__card">
+        <img src="assets/watermelon_smoothie.JPG" alt="order" id="SM-image" />
+        <h4>Smoothies</h4>
+        <select name="SM" id="SM" data-image-id="SM-image">
+            <option value="WMS" data-image="assets/watermelon_smoothie.JPG">Watermelon Smoothie </option>
+            <option value="BCS" data-image="assets/banana_cherry_smoothie.JPG">Banana Cherry Smoothie </option>
+            <option value="BS" data-image="assets/banana_smoothie.JPG">Banana Smoothie</option>
+            <option value="MBS" data-image="assets/mango_banana_smoothie.JPG">Mango Banana Smoothie</option>
+            <option value="OS" data-image="assets/orange.JPG">Orange Smoothie</option>
+            </select>
+            <h3>₦,500</h3>
+    </div>
+
+    </div>
+</section>
+    
+    <script src="script.js" defer></script>
+</body>
+</html>
